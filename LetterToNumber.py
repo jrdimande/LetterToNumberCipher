@@ -7,7 +7,7 @@ def encrypt(message):
         'v': 21, 'w': 22, 'x': 23, 'y': 24, 'z': 25, " ": '#'
     }
 
-    inversed_alphabet = {v: k for k, v in alphabet.items()}
+  
 
     numbers = []
     for c in message:
